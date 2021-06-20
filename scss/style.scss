@@ -1,0 +1,55 @@
+@import "_variables.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h4,h5,h6, p{
+    margin: 0; 
+    padding: 0;
+}
+
+.container{
+    background-color: grey;
+}
+
+@import "_fonts.scss";
+@import "_header.scss";
+@import "_form.scss";
+
+@import "_main.scss";
+
+@import "_footer.scss";
+
+.wrapp{
+    display: block;
+    margin: 0 auto;
+    width: $content-width;
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+    padding: 0 100px;
+}
+
+.at-color {
+    // color: var(--color-d03958);
+    color: #d03958;
+}

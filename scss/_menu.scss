@@ -1,0 +1,31 @@
+.nav{
+    display: block;
+    text-align: right;
+}
+
+.item{
+    display: inline-block;
+    vertical-align: top; 
+     
+}
+
+.item:last-child{
+    margin-right: 0;
+}
+
+.link {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #1b1b1b;
+
+    padding: 6px 12px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.link:hover{
+    color: #ffffff;
+    background-color: #d03958;
+}

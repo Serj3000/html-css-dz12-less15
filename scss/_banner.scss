@@ -1,0 +1,27 @@
+.banner{
+    display: block;
+    margin-top: 164px;
+    width: 500px;
+    position: relative;
+}
+
+.banner-head{
+    display: block;
+    max-height: 230px;
+    font-size: 90px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    color: #161616;
+    overflow: hidden;
+}
+
+.banner-text{
+    display: block;
+    max-height: 200px;
+    margin-top: 46px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #161616;
+    overflow: hidden;
+}

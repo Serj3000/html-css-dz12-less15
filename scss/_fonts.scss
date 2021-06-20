@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Quite Chocolatey";
+    src: url('../font/Quite Chocolatey.ttf')
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../font/Montserrat.ttf');
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url('../font/PTF55F.ttf');
+}
+
+.quite-chocolatey {
+    font-family: "Quite Chocolatey";
+    font-weight: 400;
+}
+
+.montserrat {
+    font-family: "Montserrat";
+}
+
+.montserrat-400 {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.montserrat-700 {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.PT_Serif {
+    font-family: "PT Serif";
+    font-weight: 400;
+}

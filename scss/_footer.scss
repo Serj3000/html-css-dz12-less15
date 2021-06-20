@@ -1,0 +1,25 @@
+.footer{
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapp-footer{
+    background-color: #161616;
+}
+
+.footer-logo{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 183px;
+}
+
+.all-right{
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}

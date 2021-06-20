@@ -1,0 +1,33 @@
+.header{
+    display: block;
+    text-align: center;
+    background-color: red;
+    height: $header-height;
+}
+
+.main {
+    display: block;
+    background-color: yellow;
+    height: 200px;
+}
+
+.footer {
+    display: block;
+    background-color: green;
+    height: 200px;
+}
+
+.logo{
+    font-size: 88.4px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #d03958;
+}
+
+.list {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    // color: #ffffff;
+    color: #1b1b1b;
+}

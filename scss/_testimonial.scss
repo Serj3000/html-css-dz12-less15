@@ -1,0 +1,141 @@
+.testimonial-gallery{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 84px;
+
+                // border: 10px solid red;
+}
+
+.testimonial, .gallery{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-bottom: 55px;
+    width: 440px;
+
+                // border: 5px solid blue;
+}
+
+.testimonial-header{
+    margin-left: auto;
+    margin-bottom: 60px;
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #1f1f1f;
+}
+
+.sector{
+    display: block;
+    background-color: transparent;
+    margin-bottom: 65px;
+
+                // border: 3px solid yellow;
+
+    position: relative;
+}
+
+.sector:hover{
+    background-color: #e3d5b8;
+}
+
+.testimonial-text{
+    display: block;
+    width: 380px;
+    padding: 22px;
+
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #161616;
+}
+
+.tstimonial-icon{
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    background-color: #d03958;
+    box-shadow: 0px -5px 16px 0px rgba(184,172,147,0.75);
+
+    position: absolute;
+    top: 22px;
+    left: 375px;
+}
+
+.sector:hover .tstimonial-icon{
+    background-color: #e3d5b8;
+}
+
+.testimonial-image{
+    display: block;
+    width: 105px;
+    height: 105px;
+}
+
+.snippet{
+    display: block;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #d03958;
+    padding: 5px 22px;
+}
+
+// =========================================
+
+.gallery-header{
+    margin-right: auto;
+    margin-bottom: 60px;
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #d03958;
+}
+
+.gallery-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+                // border: 3px solid yellow;
+
+    margin-bottom: 46px;
+}
+
+.gallery-icon{
+    margin: 18px;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    background-color: #d03958;
+    box-shadow: 0px -5px 16px 0px rgba(184,172,147,0.75);
+}
+
+.gallery-image{
+    display: block;
+    width: 105px;
+    height: 105px;
+}
+
+.link-gallery{
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: -0.02em;
+    color: #d03958;
+}

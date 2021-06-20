@@ -1,0 +1,77 @@
+.request{
+    display: block;
+    width: 400px;
+    height: 500px;
+    background-color: #d03958;
+    border-radius: 10px;
+
+    position: absolute;
+    top: $request-top;
+    left: $request-left;
+}
+
+.request-header{
+    display: block;
+    margin: 33px auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+.input{
+    display: block;
+    margin: 0 auto; 
+
+    width: 353px;
+    height: 58px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.checkbox{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 24px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.checkbox-label{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 24px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+input[type=text]::placeholder{
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #b5b5b5;
+}
+
+.submit-send {
+    background-color: #161616;
+
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}

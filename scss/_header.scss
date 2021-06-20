@@ -1,0 +1,26 @@
+.header{
+    display: block;
+    margin: 0 auto;
+    height: $header-height;
+    // background-color: blue;
+    background-image: url('../images/group_1_9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+}
+
+.logo{
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -0.02em;
+    color: #d03958;
+}
+
+@import "_menu.scss";
+@import "_banner.scss";
